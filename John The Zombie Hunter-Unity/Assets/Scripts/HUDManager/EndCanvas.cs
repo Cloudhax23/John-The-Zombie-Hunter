@@ -1,3 +1,13 @@
+/**** 
+ * Created by: Qadeem Qureshi
+ * Date Created: April 23, 2022
+ * 
+ * Last Edited by: NA
+ * Last Edited: April 23, 2022
+ * 
+ * Description: Handles the appearance of items on the end game screen
+****/
+
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;

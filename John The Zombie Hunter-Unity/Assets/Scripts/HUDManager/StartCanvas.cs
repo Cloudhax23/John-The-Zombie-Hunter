@@ -1,11 +1,11 @@
 /**** 
- * Created by: Akram Taghavi-Burris
- * Date Created: Feb 23, 2022
+ * Created by: Qadeem Qureshi
+ * Date Created: April 23, 2022
  * 
  * Last Edited by: NA
- * Last Edited: Feb 23, 2022
+ * Last Edited: April 23, 2022
  * 
- * Description: Updates start canvas referecing game manager
+ * Description: Handles the appearance of items on the start game screen
 ****/
 
 using System.Collections;
@@ -32,7 +32,5 @@ public class StartCanvas : MonoBehaviour
     public void GameExit()
     {
         gm.ExitGame(); //refenece the ExitGame method on the game manager
-
     }
-
 }

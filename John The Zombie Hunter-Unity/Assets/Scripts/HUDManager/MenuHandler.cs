@@ -1,3 +1,13 @@
+/**** 
+ * Created by: Qadeem Qureshi
+ * Date Created: April 23, 2022
+ * 
+ * Last Edited by: NA
+ * Last Edited: April 23, 2022
+ * 
+ * Description: Manages the appearance of items on the in game screen
+****/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,6 +29,7 @@ public class MenuHandler : MonoBehaviour
     }
 
     // Update is called once per frame
+    // Update our scores/objectives
     void Update()
     {
         killScoreUI.text = "Kills: " + gm.Score;
